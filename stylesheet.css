@@ -1,0 +1,158 @@
+* {box-sizing: border-box;
+
+    margin:0;
+    padding: 0;
+}
+body
+{font-family: "roboto", Helvetica, sans-serif;
+font-size: 16px;
+line-height: 1.5;}
+
+
+
+
+.navbar {display:flex;
+    justify-content:flex-end;
+    
+}
+
+nav ul
+{display:flex;
+}
+
+nav li
+{margin-left:20px;}
+
+.header {
+display:flex;
+justify-content: space-between;
+font-size:18px;
+    height:60px;
+}
+
+.first-section .header 
+{display:flex;
+    justify-content: space-between;
+    background-color:#1F2937; 
+    font-size:18px;
+    align-items: center;
+    height:100%;
+    padding-left:80px;
+    padding-right: 80px;
+    
+}
+
+
+nav a
+{color:#e5e7eb;
+font-size: 18px;
+text-decoration: none;
+ }
+
+ a:hover {color:lightblue;}
+
+.header-logo
+{font-size: 24px;
+color:#F9FAF8;
+font-weight:bold;}
+
+h1 {font-weight:bolder;
+font-size: 48px;
+color:#f9faf8;
+line-height:1.2;
+
+
+}
+
+.container0
+ {display:flex;
+   }
+
+
+img { max-width:400px;
+    max-width:100%;}
+
+
+.content
+{display:flex;
+    background-color:#1F2937; 
+    font-size:18px;
+    align-items:flex-start;
+    flex-direction: column;
+    align-content: start;
+    justify-content: flex-start;
+    color:#e5e7eb;
+    min-height:400px;
+    padding-left:80px;
+    padding-right: 80px;
+padding-top: 80px;
+flex-basis:100%;}
+
+
+
+
+
+ul {list-style-type: none;
+    display: flex;   
+}
+
+li {font-size:18px;
+    color: #e5e7eb;}
+
+
+.text {
+background-color:#e5e7eb;
+font-size: 36px;
+font-style: italic;
+color:#1F2937;
+}
+
+
+.info-text
+{font-size: 36px; font-weight:bolder;
+color:#1f2937;
+display:flex;
+justify-content: center;
+
+}
+
+.boxes {
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    height: 200px;
+}
+.box
+{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+border-style: solid #3882F6;
+width: 200px;
+height:200px;
+margin: 10px;
+}
+
+.container {
+    max-width:1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.action  {
+background-color: #3882F6;
+}
+
+.signup 
+{background-color: #3882F6;
+border-style: line;
+border-color: white;}
+
+.footer {
+    display:flex;
+    justify-content: center;
+    background-color:#1F2937;
+    margin-bottom: 0;
+    color:#F9FAF8;
+}
